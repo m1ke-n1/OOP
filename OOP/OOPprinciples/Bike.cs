@@ -8,6 +8,6 @@ namespace OOP
 {
     internal class Bike : Vehicle
     {
-        public sbyte NumberOfWheels { get; set; }
+
     }
 }

@@ -11,9 +11,12 @@ namespace OOP
         public string Brand { get; set; }
         public string Model { get; set; }
         public ushort Year { get; set; }
+        public sbyte NumberOfWheels { get; set; }
 
-        public void Start() => Console.WriteLine("Vehicle is starting...");
+        public virtual string VehicleType => this.GetType().Name;
 
-        public void Stop() => Console.WriteLine("Vehicle is stopping");
+        public virtual void Start() => Console.WriteLine($"{VehicleType} is starting...");
+
+        public virtual void Stop() => Console.WriteLine($"{VehicleType} is stopping");
     }
 }

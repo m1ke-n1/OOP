@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -14,10 +15,16 @@ namespace OOP
     {
         static void Main(string[] args)
         {
-            ////INHERITANCE
-            Bike bike = new Bike();
+            ////POLYMORPHISM -> ABILITY OF AN OBJECT WHICH TAKE MANY FORMS
+            Car car = new Car();
 
-            bike.Start();
+            car.Start();
+
+            Console.WriteLine(car.VehicleType);
+
+            ////INHERITANCE
+            //Bike bike = new Bike();
+            //bike.Start();
 
 
             ////ABSTRACTION

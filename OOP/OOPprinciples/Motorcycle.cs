@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP
+namespace OOP.OOPprinciples
 {
-    internal class Car : Vehicle
-    {
-        public sbyte NumberOfDoors { get; set; }
+    internal class Motorcycle : Vehicle
+    { 
+
     }
 }

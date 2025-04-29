@@ -14,16 +14,16 @@ namespace OOP
     {
         static void Main(string[] args)
         {
+            ////INHERITANCE
+            Bike bike = new Bike();
+
+            bike.Start();
+
+
             ////ABSTRACTION
             ////REDUCE COMPLEXITY BY HIDING UNNECESSARY DETAILS
-            
-            EmailService emailService = new EmailService();
-
-            emailService.SendEmail();
-
-
-
-
+            //EmailService emailService = new EmailService();
+            //emailService.SendEmail();
 
 
             ////ENCAPSULATION
